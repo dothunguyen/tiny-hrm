@@ -59,7 +59,7 @@ A graph database (DGraph) has been tried but failed to store the invalid relatio
 cd views
 npm install && npm run build
 ```
-## Bundle
+## Build executable
 
 To build the executable from source, you will need to install Go first 
 Please follow this [document](https://golang.org/doc/install)for Go installation 
