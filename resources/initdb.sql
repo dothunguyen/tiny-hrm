@@ -1,0 +1,1 @@
+INSERT INTO employee (id, name, managerId) VALUES (100, 'Alan', 150),(220, 'Martin', 100),(150, 'Jamie', NULL),(275, 'Alex', 100),(400, 'Steve', 150),(190, 'David', 400)
