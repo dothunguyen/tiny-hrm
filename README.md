@@ -53,7 +53,7 @@ A graph database (DGraph) has been tried but failed to store the invalid relatio
 
 # Build Docker
 
-You will need docker for building and run
+You will need docker to build and run
 
 ```
 docker build -t tiny-hrm .
