@@ -53,26 +53,18 @@ A graph database (DGraph) has been tried but failed to store the invalid relatio
 
 # Build 
 
-## Front-end
-
-```
-cd views
-npm install && npm run build
-```
-## Build executable
-
 To build the executable from source, you will need to install Go first 
 Please follow this [document](https://golang.org/doc/install)for Go installation 
 
 check out this project to your `$GOPATH`
 
 ```
-go build
+bash build.sh
 ```
 # Run
 
 ```
-./tiny-hrm
+bash run.sh
 ```
 
 # Test
