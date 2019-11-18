@@ -1,0 +1,19 @@
+package: tiny-hrm
+import:
+- package: github.com/gin-gonic/contrib
+  subpackages:
+  - static
+- package: github.com/gin-gonic/gin
+  version: ^1.4.0
+- package: github.com/mattn/go-sqlite3
+  version: ^1.12.0
+- package: github.com/gin-contrib/sse
+  version: ^0.1.0  
+- package: github.com/golang/protobuf
+  version: ^1.3.2   
+- package: github.com/mattn/go-isatty
+  version: ^0.0.10  
+- package: gopkg.in/go-playground/validator.v8
+  version: ^10.0.1  
+- package: gopkg.in/yaml.v2
+  version: ^2.2.5

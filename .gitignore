@@ -3,6 +3,7 @@
 # dependencies
 views/node_modules
 views/build
+/vendor
 /.pnp
 .pnp.js
 

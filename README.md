@@ -51,20 +51,18 @@ RDBMS is chosen to model the relationship between employee.
 Sqlite is chosen for the scope of this project.
 A graph database (DGraph) has been tried but failed to store the invalid relationship (managerId is not a valid employeeId)
 
-# Build 
+# Build Docker
 
-To build the executable from source, you will need to install Go first 
-Please follow this [document](https://golang.org/doc/install)for Go installation 
-
-check out this project to your `$GOPATH`, change working directory to the project directory and run
+You will need docker for building and run
 
 ```
-bash build.sh
+docker build -t tiny-hrm .
 ```
+
 # Run
 
 ```
-bash run.sh
+docker run -it -p 3000:3000 tiny-hrm
 ```
 
 # Test
