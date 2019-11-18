@@ -56,7 +56,7 @@ A graph database (DGraph) has been tried but failed to store the invalid relatio
 To build the executable from source, you will need to install Go first 
 Please follow this [document](https://golang.org/doc/install)for Go installation 
 
-check out this project to your `$GOPATH`
+check out this project to your `$GOPATH`, change working directory to the project directory and run
 
 ```
 bash build.sh
